@@ -1,0 +1,21 @@
+# Site settings
+title: Coding Journey
+header-img: img/home-bg.png
+email: anginblu@gmail.com
+copyright_name: anginblu
+description: > # this means to ignore newlines until "baseurl:"
+  with Flatiron
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  anginblu
+learn_profile: anginblu
+email_username: anginblu@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
